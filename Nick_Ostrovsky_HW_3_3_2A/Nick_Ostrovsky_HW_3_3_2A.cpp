@@ -43,6 +43,7 @@ int main()
 
         {
             std::cout << "Need to set counter initial value Y/N?\n";
+            std::cin >> line;
         }
                  
     }
