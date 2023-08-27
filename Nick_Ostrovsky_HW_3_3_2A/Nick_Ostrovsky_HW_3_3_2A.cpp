@@ -33,14 +33,18 @@ int main()
             count.set_ctr(n);
             i = 1;
         }
-        else if (line != "Y" || line != "N")
-        {
-            std::cout << "Need to set counter initial value Y/N?\n";
-        }
+ 
+
         else if (line == "N")
         {
             i = 1;
         }
+        else
+
+        {
+            std::cout << "Need to set counter initial value Y/N?\n";
+        }
+                 
     }
 
     line = " ";
